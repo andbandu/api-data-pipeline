@@ -1,0 +1,8 @@
+# RUN PERFECT SERVER
+prefect server start
+
+#RUN PIPELINE
+py pipeline.py
+
+# To RUN PIPELINE, INSTENTLY
+prefect deployment run "API Data Ingestion Pipeline/API Data Ingestion Pipeline"
